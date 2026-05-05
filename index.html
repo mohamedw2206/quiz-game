@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Multiplayer</title>
+</head>
+<body>
+
+<h2>Multiplayer Quiz</h2>
+
+<input id="name" placeholder="name">
+<button onclick="join()">Join</button>
+
+<h3 id="question">Waiting...</h3>
+<div id="answers"></div>
+
+<h3>Players</h3>
+<div id="players"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
